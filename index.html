@@ -10,14 +10,21 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="top-page">
-      <h1 class="front">Change your career, Change your life</h1>
+      <h1 class="front">Change your career, <br />Change your life</h1>
       <h3 class="comment">
-        Get ahead with expert-led training in coding & design
+        Get ahead with expert-led training in <br />coding & design
       </h3>
-      <div class="buttons"><input type="button" /><input type="button" /></div>
+      <div class="buttons">
+        <input class="Apply-now" type="button" value="Apply now" /><input
+          class="Learn-more"
+          type="button"
+          value="Learn more"
+        />
+      </div>
     </header>
     <section class="description">
       <h2 class="bold-text">
@@ -28,14 +35,14 @@
         Science fundamentals.
       </h3>
       <h2 class="bold-text">Develop Production Level Web Applications</h2>
-      <h3 class="text">
+      <h3 class="text last">
         You put your knowledge into action with carefully designed assignments
         and personal software engineering projects.
       </h3>
     </section>
     <section class="article">
       <h2 class="title">Program</h2>
-      <h3 class="article-title">Frontend Dev.Immersive Course</h3>
+      <h3 class="article-title">Frontend Dev. Immersive Course</h3>
       <h4 class="article-description">
         Your best course for career transformation in front-end developement.
         This full-time bootcamp features expert instruction, one-on-one career
@@ -43,16 +50,22 @@
       </h4>
       <div class="article-container">
         <article class="article1">
-          <div class="image1"><img src="" alt="" /></div>
-          <h3 class="subtitle">Full-Time On Campus</h3>
+          <div class="image1">
+            <img src="./assets/img/img-fulltime-campus.png" alt="human image" />
+            <h3 class="subtitle">Full-Time On Campus</h3>
+          </div>
         </article>
         <article class="article2">
-          <div class="image2"><img src="" alt="" /></div>
-          <h3 class="subtitle">Full-Time Remote</h3>
+          <div class="image2">
+            <img src="./assets/img/img-fulltime-remote.png" alt="TV image" />
+            <h3 class="subtitle">Full-Time Remote</h3>
+          </div>
         </article>
         <article class="article3">
-          <div class="image3"><img src="" alt="" /></div>
-          <h3 class="subtitle">Part-Time Flex</h3>
+          <div class="image3">
+            <img src="./assets/img/img-parttime-flex.png" alt="moon image" />
+            <h3 class="subtitle">Part-Time Flex</h3>
+          </div>
         </article>
       </div>
     </section>
@@ -64,19 +77,21 @@
         computing, networks, and data structures.
       </p>
       <input type="button" class="Apply-now" value="Apply now" />
-      <p>
+      <p class="paragraph">
         <strong>Real-World Projects.</strong> Solve challenges that professional
         engineers face as you work individually and in teams with designers.
       </p>
-      <p>
+      <p class="paragraph last">
         <strong>Instructor Support.</strong> Get guidance, feedback, and more
         during scheduled one-on-one check-ins.
       </p>
     </section>
     <section class="email-section">
-      <img src="#" alt="" />
+      <div class="banner">
+        <img src="./assets/img/img-banner.png" alt="banner" />
+      </div>
       <h3>Stay with us</h3>
-      <p>
+      <p class="text">
         Subscribe to our email newsletter to stay up to date on the latest
         updates
       </p>
@@ -85,7 +100,7 @@
         class="email-button"
         placeholder="Enter your email"
       /><input type="button" class="get-started" value="Get started" />
-      <p>
+      <p class="Check">
         Cancel any time. Check out
         <a href="#" class="terms-of-use">Terms of Use.</a>
       </p>
