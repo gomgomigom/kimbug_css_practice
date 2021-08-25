@@ -232,7 +232,12 @@ input {
   margin-bottom: 32px;
 }
 
-.Curriculum > input {
+.Curriculum > .Curriculum-button {
+  width: 290px;
+  height: auto;
+}
+
+.Curriculum input {
   width: 140px;
   height: 48px;
   background-color: #3040c4;
@@ -341,12 +346,19 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   height: 136px;
 }
+.footer > .footer-container {
+  width: 320px;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-.footer > p {
+.footer > div p {
   font-size: calc(14rem / 16);
   line-height: 1.5rem;
   letter-spacing: calc(-1em / 100);
@@ -357,10 +369,10 @@ input {
   margin-left: 15px;
 }
 
-.footer > p:first {
+.footer > div p:nth-child(1) {
   width: 39px;
 }
 
-.footer > p:nth-child(2) ~ p:nth-child(3) {
+.footer > div p:nth-child(2) ~ p:nth-child(3) {
   width: 46px;
 }
